@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://store.localz.online/maharashtra/sitemap_index.xml
+Sitemap: https://store.localz.online/sitemap_index.xml
