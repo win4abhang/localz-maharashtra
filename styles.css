@@ -1,0 +1,135 @@
+/* General */
+body {
+  background: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-align: center; /* center align all text */
+}
+
+/* Header */
+nav {
+  background: #1A73E8 !important; /* Blue */
+}
+
+.page-title {
+  margin-top: 5px;
+  font-size: 2rem;
+  color: #0a0004;
+  font-weight: 900;
+}
+
+/* Section Header */
+.section-header {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  color: #1A73E8;
+  font-weight: 600;
+}
+
+.store-header {
+  font-size: 2rem;
+  color: #1A73E8;
+  font-weight: 900;
+}
+
+/* Buttons */
+.btn-dir {
+  background-color: #1A73E8 !important; /* Blue */
+  color: #fff !important;
+}
+.btn-call {
+  background-color: #1A73E8 !important; /* Green */
+  color: #fff !important;
+}
+.btn-chat {
+  background-color: #1A73E8 !important; /* Grey */
+  color: #fff !important;
+}
+
+
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+}
+.footer-link {
+  color: #1A73E8;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Mobile-first adjustments */
+@media (max-width: 600px) {
+  .card-action a {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  height: 100px;             /* adjust header height */
+  background-color: #fff;    /* optional */
+}
+
+.brand-logo {
+  width: 150px;  
+  height: 60px;
+  background: url("https://localz.online/images/logo.png") no-repeat center center;
+  background-size: contain;
+}
+
+/* Store List */
+.store-list {
+  display: flex;
+  flex-direction: column; /* stack cards vertically */
+  align-items: center;   /* center cards horizontally */
+}
+
+/* Store Card */
+.store-card {
+  width: 100%;
+  max-width: 90%;       /* fixed max width for nice look */
+  margin: 10px 0;
+  padding: 15px;
+  text-align: center;     /* center align content inside */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #E6F0FC;
+}
+
+.subcategory-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* ✅ centers chips horizontally */
+  gap: 8px; /* space between chips */
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1A73E8;
+  background-color: transparent;
+  border: 1px solid #1A73E8;      /* outline */
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.chip:hover {
+  background-color: #1A73E8;
+  color: #fff;
+  transform: translateY(-1px);
+}

@@ -1,7 +1,0 @@
-/maharashtra/sitemap_*.xml
-  Content-Type: application/xml; charset=utf-8
-  Cache-Control: public, max-age=0, must-revalidate
-
-/maharashtra/sitemap_index.xml
-  Content-Type: application/xml; charset=utf-8
-  Cache-Control: public, max-age=0, must-revalidate
