@@ -80,10 +80,13 @@ header {
 }
 
 .brand-logo {
-  width: 150px;  
+  width: 150px;
   height: 60px;
   background: url("https://localz.online/images/logo.png") no-repeat center center;
   background-size: contain;
+
+  display: block;
+  margin: 0 auto;  /* centers horizontally */
 }
 
 /* Store List */
