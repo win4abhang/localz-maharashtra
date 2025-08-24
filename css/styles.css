@@ -41,7 +41,7 @@ nav {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
-  background-color: #ffb600;
+  background-color: #ffb600 !important;
   border: 1px solid #ffb600;      /* outline */
   border-radius: 9999px;
   text-decoration: none;
@@ -55,7 +55,7 @@ nav {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
-  background-color: #1A73E8;
+  background-color: #1A73E8 !important;
   border: 1px solid #1A73E8;      /* outline */
   border-radius: 9999px;
   text-decoration: none;
@@ -69,7 +69,7 @@ nav {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
-  background-color: #00b546;
+  background-color: #00b546 !important;
   border: 1px solid #00b546;      /* outline */
   border-radius: 9999px;
   text-decoration: none;
