@@ -80,6 +80,10 @@ header {
 
   display: block;
   margin: 0 auto;  /* centers horizontally */
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  height: 100px;             /* adjust header height */
 }
 
 /* Store List */
