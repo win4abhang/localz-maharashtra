@@ -34,16 +34,46 @@ nav {
 
 /* Buttons */
 .btn-dir {
-  background-color: #ffb600 !important; /* Blue */
-  color: #fff !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #ffb600;
+  border: 1px solid #ffb600;      /* outline */
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
-.btn-call {
-  background-color: #00b546 !important; /* Green */
-  color: #fff !important;
+.btn-call {  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #1A73E8;
+  border: 1px solid #1A73E8;      /* outline */
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 .btn-chat {
-  background-color: #1A73E8 !important; /* Grey */
-  color: #fff !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #00b546;
+  border: 1px solid #00b546;      /* outline */
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.2s ease;  
 }
 
 /* Footer */
@@ -121,15 +151,14 @@ header {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
-  background-color: #1A73E8;
-  border: 1px solid #1A73E8;      /* outline */
+  background-color: #464749;      /* outline */
   border-radius: 9999px;
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
 .chip:hover {
-  background-color: #1A73E8;
+  background-color: #1f2022;
   color: #fff;
   transform: translateY(-1px);
 }
